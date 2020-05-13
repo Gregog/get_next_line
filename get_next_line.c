@@ -6,7 +6,7 @@
 /*   By: rvernius <rvernius@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/09 15:23:50 by rvernius          #+#    #+#             */
-/*   Updated: 2020/05/12 21:49:23 by rvernius         ###   ########.fr       */
+/*   Updated: 2020/05/13 21:08:09 by rvernius         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ static int		ft_make_new_line(char **fd_arr, char **line, char *p_new_line)
 
 	*p_new_line++ = '\0';
 	*line = ft_strdup(*fd_arr);
-	if (!line)
+	if (!*line)
 		return (-1);
 	if (*p_new_line == '\0')
 	{
