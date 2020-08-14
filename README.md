@@ -1,2 +1,2 @@
 # get_next_line
-School21 GNL project
+Реализация проекта get_next_line в рамках обучения в школе21
