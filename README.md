@@ -13,10 +13,10 @@ int main(int argc, char **argv)
 	{
 		printf("|%s|\n", line);
 	}
+	return 0;
 }
 ```
 ### При компиляции необходимо явно указывать буфер, с которым вы хотите считать строку, либо добавить макрос в .h файл
-### Пример:
 ```bash
 gcc -D BUFFER_SIZE=32 main.c get_next_line.c get_next_line_utils.c
 ```
